@@ -1,10 +1,10 @@
-#  Dynamic UI Editor for Customizable Components
+# Dynamic UI Editor for Customizable Components
 
 This project is a **React-based single-page web application** that allows users to customize and visualize a 3D cabinet model in real time. It includes a built-in UI editor panel to control typography, button styles, colors, and layout properties dynamically. The 3D model rendering is powered by **react-three-fiber** and **three.js**, while all styling is handled using **pure CSS** for a clean and modular structure.
 
 ---
 
-##  Component API & Configurable Props
+## Component API & Configurable Props
 
 Each UI element is configurable through a shared global state using a lightweight store (`useConfig`).  
 Below are the main configurable properties:
@@ -35,7 +35,7 @@ Below are the main configurable properties:
 
 ---
 
-##  How the Editor Works
+## How the Editor Works
 
 - The **Editor panel** (left sidebar) contains input controls like sliders, dropdowns, and color pickers.  
 - Each change updates the global configuration instantly.  
@@ -47,7 +47,7 @@ Below are the main configurable properties:
 
 ---
 
-##  Design & UX Decisions
+## Design & UX Decisions
 
 - Built as a **single-page interactive application** for a seamless experience.  
 - The 3D cabinet model is fully interactive, with orbit controls for rotation and zoom.  
@@ -57,7 +57,7 @@ Below are the main configurable properties:
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **React.js + Vite** – core framework and bundler.  
 - **React Three Fiber + Drei** – 3D rendering and model interaction.  
@@ -66,7 +66,7 @@ Below are the main configurable properties:
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 ```bash
 npm install
