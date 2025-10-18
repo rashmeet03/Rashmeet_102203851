@@ -41,7 +41,7 @@ body {
 }
 
 .sidebar {
-  position: sticky;
+  position: static;
   top: 16px;
   align-self: start;
   max-height: 86vh;
