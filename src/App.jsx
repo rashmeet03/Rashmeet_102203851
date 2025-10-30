@@ -9,7 +9,7 @@ export default function App() {
     <>
       <header className="header">
         <strong>Dynamic UI Editor</strong>
-        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+        <div>
           <select
             value={preview}
             onChange={(e) => set("preview", e.target.value)}
